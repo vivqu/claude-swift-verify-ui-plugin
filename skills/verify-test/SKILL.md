@@ -14,7 +14,7 @@ Run the unit and UI test suite on a simulator and report pass/fail results.
 When running tests you will see multiple app launches — this is normal and expected:
 
 - **UI tests always launch the app as a separate process** from the test runner, so you'll see both start up.
-- **`runsForEachTargetApplicationUIConfiguration: true`** causes `testLaunch()` to run once per UI configuration (e.g. light mode and dark mode), which launches the app multiple times.
+- **For SwiftUI UI tests**: if the test class sets `runsForEachTargetApplicationUIConfiguration = true`, tests run once per UI configuration (e.g. light mode and dark mode), causing additional app launches.
 
 ## Determine what to test
 
