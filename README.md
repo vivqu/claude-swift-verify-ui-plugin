@@ -17,8 +17,11 @@ A Claude Code plugin that builds, runs, and visually verifies iOS apps on a simu
 
 ## Installation
 
+From Github:
+
 ```bash
-claude plugin add https://github.com/vivqu/claude-ios-verify-ui-plugin
+/plugin marketplace add vivqu/ios-verify-ui-plugin
+/plugin install ios-verify-ui
 ```
 
 ## Usage

@@ -1,11 +1,25 @@
 {
   "name": "ios-verify-ui",
   "version": "0.1.0",
-  "description": "Build, run, and visually verify iOS apps on a simulator using XcodeBuildMCP. Includes UI conventions checking and full test suite execution.",
-  "skills": [
-    "skills/verify-ui",
-    "skills/verify-test",
-    "skills/verify"
-  ],
-  "repository": "https://github.com/vivqu/claude-ios-verify-ui-plugin"
+  "description": "Build, test, and run visual verification of iOS apps on a simulator using XcodeBuildMCP.",
+  "skills": "./skills/",
+  "homepage": "https://github.com/vivqu/claude-ios-verify-ui-plugin",
+  "repository": "https://github.com/vivqu/claude-ios-verify-ui-plugin",
+  "author": {
+    "name": "Vivian Qu",
+    "email": "hello@vivqu.com",
+    "url": "https://github.com/vivqu"
+  },
+  "keywords": [
+    "xcode",
+    "ios",
+    "simulator",
+    "testing",
+    "ui",
+    "accessibility",
+    "automation",
+    "verification",
+    "hig",
+    "human interface guidelines"
+  ]
 }
